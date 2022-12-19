@@ -17,7 +17,7 @@ os.listdir(path)
 
 **需安裝套件:** 
 
-`pip install timm==0.6.2.dev0`
+`pip install timm==0.6.11`
 
 ``` {.python}
 pip install timm==0.6.2.dev0
