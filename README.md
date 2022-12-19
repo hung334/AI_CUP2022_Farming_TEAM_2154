@@ -2,7 +2,7 @@
 
 
 先將 private_test.zip 和 public_test.zip 解壓縮至
-./AI_CUP2022_Farming_TEAM_2154/total_test/ 內做存放
+./total_test/ 內做存放
 
 接著下載6份權重檔，放在./weight/
 
