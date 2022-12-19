@@ -5,6 +5,7 @@
 ./AI_CUP2022_Farming_TEAM_2154/total_test/ 內做存放
 
 **執行 Final_Test_ensemble.py 即可輸出答案，答案會儲存在(./Ans)**
+
 `python Final_Test_ensemble.py`
 
 
