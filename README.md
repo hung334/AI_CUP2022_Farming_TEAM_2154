@@ -37,6 +37,11 @@ https://drive.google.com/drive/folders/1AIiLbCOiZOGQZLWFa4S8b8YKVq4Bkycl?usp=sha
 
 
 
+
+
+
+
+
 **如何執行 train.py**
 
 **進入pytorch-image-models 目錄下**
