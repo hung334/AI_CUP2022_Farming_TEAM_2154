@@ -4,6 +4,8 @@
 先將 private_test.zip 和 public_test.zip 解壓縮至
 ./AI_CUP2022_Farming_TEAM_2154/total_test/ 內做存放
 
+接著下載6份權重檔，放在./weight/
+
 **執行 Final_Test_ensemble.py 即可輸出答案，答案會儲存在(./Ans)**
 
 `python Final_Test_ensemble.py`
