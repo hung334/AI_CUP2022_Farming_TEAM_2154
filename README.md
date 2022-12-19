@@ -93,7 +93,7 @@ https://drive.google.com/drive/folders/1Ljl4Alqfo34yKMstZmNgmggCaE08o5m0?usp=sha
 
 
 **進入pytorch-image-models 目錄下**
-``` {.python}
+``` 
 %cd pytorch-image-models
 ```
 **訓練指令**
