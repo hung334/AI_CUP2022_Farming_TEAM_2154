@@ -2,13 +2,13 @@
 
 **在Colab上掛載Google Drive**
 
-``` {.python}
+``` python
 from google.colab import drive
 drive.mount("/content/drive")
 ```
 **進入到文件所在的目錄**
 
-``` {.python}
+``` python
 import os
 path = "/content/drive/My Drive/AI_CUP2022_Farming_TEAM_2154"
 os.chdir(path)
@@ -19,7 +19,7 @@ os.listdir(path)
 
 `pip install timm==0.6.11`
 
-``` {.python}
+``` python
 pip install timm==0.6.11
 ```
 
@@ -60,7 +60,7 @@ https://drive.google.com/drive/folders/1Ljl4Alqfo34yKMstZmNgmggCaE08o5m0?usp=sha
 1-3 執行 Final_Test_ensemble.py 即可輸出答案，答案會儲存在(./Ans)
 
 `!python Final_Test_ensemble.py`
-``` {.python}
+``` python
 !python Final_Test_ensemble.py
 ```
 
