@@ -30,6 +30,8 @@
 
 https://drive.google.com/drive/folders/1AIiLbCOiZOGQZLWFa4S8b8YKVq4Bkycl?usp=share_link
 
+https://drive.google.com/drive/folders/1Ljl4Alqfo34yKMstZmNgmggCaE08o5m0?usp=share_link
+
 1-3 執行 Final_Test_ensemble.py 即可輸出答案，答案會儲存在(./Ans)
 
 `python Final_Test_ensemble.py`
