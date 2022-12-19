@@ -93,7 +93,7 @@ https://drive.google.com/drive/folders/1Ljl4Alqfo34yKMstZmNgmggCaE08o5m0?usp=sha
 
 
 **進入pytorch-image-models 目錄下**
-``` 
+``` python
 %cd pytorch-image-models
 ```
 **訓練指令**
@@ -106,27 +106,27 @@ https://drive.google.com/drive/folders/1Ljl4Alqfo34yKMstZmNgmggCaE08o5m0?usp=sha
 ```
 
 訓練 swinv2-B
-``` {.python}
+``` python
 !CUDA_LAUNCH_BLOCKING=1 python train.py ../Crops33/data --model swinv2_large_window12to24_192to384_22kft1k --pretrained --num-classes 33 -b 12 -vb 12 --opt adamw --weight-decay 0.01 --layer-decay 0.65 --sched cosine --lr 0.0001 --lr-cycle-limit 1 --warmup-lr 1e-5 --min-lr 1e-5 --epochs 30 --warmup-epochs 5 --color-jitter 0.5 --reprob 0.5 --scale 0.4 1.0 --train-interpolation bicubic --drop-path 0.1 -j 20 --save-images --output output --experiment swinv2_large_window12to24_192to384_22kft1k_newB_mean_std --train_txt ./datasets_txt/B_train.txt --val_txt ./datasets_txt/B_val.txt --mean 0.45925 0.48785 0.42035 --std 0.25080 0.24715 0.29270
 ```
 
 訓練 beit-A
-``` {.python}
+``` python
 !CUDA_LAUNCH_BLOCKING=1 python train.py ../Crops33/data --model beit_large_patch16_384 --pretrained --num-classes 33 -b 24 -vb 24 --opt adamw --weight-decay 0.01 --layer-decay 0.65 --sched cosine --lr 0.0001 --lr-cycle-limit 1 --warmup-lr 1e-5 --min-lr 1e-5 --epochs 300 --warmup-epochs 5 --color-jitter 0.5 --reprob 0.5 --scale 0.4 1.0 --train-interpolation bicubic --drop-path 0.1 -j 20 --save-images --output output --experiment beit_large_patch16_384_newA_baseline --train_txt ./datasets_txt/A_train.txt --val_txt ./datasets_txt/A_val.txt --crop-pct 1.0
 ```
 
 訓練 beit-B
-``` {.python}
+``` python
 !CUDA_LAUNCH_BLOCKING=1 python train.py ../Crops33/data --model beit_large_patch16_384 --pretrained --num-classes 33 -b 24 -vb 24 --opt adamw --weight-decay 0.01 --layer-decay 0.65 --sched cosine --lr 0.0001 --lr-cycle-limit 1 --warmup-lr 1e-5 --min-lr 1e-5 --epochs 30 --warmup-epochs 5 --color-jitter 0.5 --reprob 0.5 --scale 0.4 1.0 --train-interpolation bicubic --drop-path 0.1 -j 20 --save-images --output output --experiment beit_large_patch16_384_newB_baseline --train_txt ./datasets_txt/B_train.txt --val_txt ./datasets_txt/B_val.txt --crop-pct 1.0
 ```
 
 訓練 swinv2-A-KD
-``` {.python}
+``` python
 !CUDA_LAUNCH_BLOCKING=1 python train_distillation.py ../Crops33/data --model swinv2_large_window12to24_192to384_22kft1k --pretrained --num-classes 33 -b 6 -vb 6 --opt adamw --weight-decay 0.01 --layer-decay 0.65 --sched cosine --lr 0.0001 --lr-cycle-limit 1 --warmup-lr 1e-5 --min-lr 1e-5 --epochs 30 --warmup-epochs 5 --color-jitter 0.5 --reprob 0.5 --scale 0.4 1.0 --train-interpolation bicubic --drop-path 0.1 -j 20 --save-images --output output --experiment swinv2_large_window12to24_192to384_22kft1k_newA_mean_std_distillation --train_txt ./datasets_txt/A_train.txt --val_txt ./datasets_txt/A_val.txt --mean 0.45925 0.48785 0.42035 --std 0.25080 0.24715 0.29270
 ```
 
 訓練 swinv2-B-KD
-``` {.python}
+``` python
 !CUDA_LAUNCH_BLOCKING=1 python train_distillation.py ../Crops33/data --model swinv2_large_window12to24_192to384_22kft1k --pretrained --num-classes 33 -b 6 -vb 6 --opt adamw --weight-decay 0.01 --layer-decay 0.65 --sched cosine --lr 0.0001 --lr-cycle-limit 1 --warmup-lr 1e-5 --min-lr 1e-5 --epochs 30 --warmup-epochs 5 --color-jitter 0.5 --reprob 0.5 --scale 0.4 1.0 --train-interpolation bicubic --drop-path 0.1 -j 20 --save-images --output output --experiment swinv2_large_window12to24_192to384_22kft1k_newB_mean_std_distillation --train_txt ./datasets_txt/B_train.txt --val_txt ./datasets_txt/B_val.txt --mean 0.45925 0.48785 0.42035 --std 0.25080 0.24715 0.29270
 ```
 
