@@ -1,4 +1,4 @@
-# AI_CUP_2022_Farming
+# AI_CUP_2022_Farming_TEAM_2154
 
 **1.執行輸出預測答案**
 
