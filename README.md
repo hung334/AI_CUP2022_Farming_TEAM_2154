@@ -30,50 +30,13 @@
 		      ├──*.jpg
 
 
+**如何執行 train.py**
 
-**1.在Colab上掛載Google Drive**
-
-``` {.python}
-from google.colab import drive
-drive.mount("/content/drive")
-```
-**2.進入到文件所在的目錄**
-
-``` {.python}
-import os
-path = "/content/drive/My Drive/AI_CUP_2022_Orchid_TEAM_511"
-os.chdir(path)
-os.listdir(path)
-```
-
-**3.需安裝套件:** 
-
-`pip install timm==0.6.2.dev0`
-
-``` {.python}
-pip install timm==0.6.2.dev0
-```
-
-
-**4.執行 Final_Test.py 即可輸出答案，答案會儲存在(./Ans)**
-
-`!python Final_Test.py`
-
-*＃注意
-本隊伍在實驗階段時有發現到Pillow的版本若非當初訓練時的版本(8.3.1)，在輸出結果上會有些許誤差。*
-
-``` {.python}
-!python Final_Test.py
-```
-
-
-**5.如何執行 train.py**
-
-**5-1 進入pytorch-image-models 目錄下**
+**進入pytorch-image-models 目錄下**
 ``` {.python}
 %cd pytorch-image-models
 ```
-**5-2 訓練 swin large**
+**訓練 swin large**
 
 --experiment 儲存訓練實驗的檔案夾名稱
 
