@@ -69,7 +69,7 @@ https://drive.google.com/drive/folders/1Ljl4Alqfo34yKMstZmNgmggCaE08o5m0?usp=sha
 
 **2.如何執行訓練**
 
-2-1 將 train_data.zip 解壓縮至
+將 train_data.zip 解壓縮至
 (./Crop33/data/)
 
 **File Structure**
