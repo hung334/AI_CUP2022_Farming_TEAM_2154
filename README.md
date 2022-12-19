@@ -3,7 +3,7 @@
 **1.執行輸出預測答案**
 
 1-1 先將 private_test.zip 和 public_test.zip 解壓縮至
-./total_test/ 
+(./total_test/)
 
 **File Structure**
 
@@ -26,7 +26,7 @@
 
 
 
-1-2 接著下載6份權重檔，放在./weight/
+1-2 接著下載6份權重檔，放在(./weight/)
 
 https://drive.google.com/drive/folders/1AIiLbCOiZOGQZLWFa4S8b8YKVq4Bkycl?usp=share_link
 
