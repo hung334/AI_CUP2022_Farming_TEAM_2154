@@ -67,7 +67,30 @@ https://drive.google.com/drive/folders/1Ljl4Alqfo34yKMstZmNgmggCaE08o5m0?usp=sha
 
 
 
-**如何執行 train.py**
+**2.如何執行訓練**
+
+2-1 將 train_data.zip 解壓縮至
+(./Crop33/data/)
+
+**File Structure**
+
+    ├──./Crop33/data/
+	    	├── asparagus
+		│     ├──*.jpg
+		│     │
+		│     │  ...
+		│     │
+		│     ├──*.jpg
+		│ 
+		│ ...
+		│ 
+		└── cauliflower
+		      ├──*.jpg
+		      │
+		      │  ...
+		      │
+		      ├──*.jpg
+
 
 **進入pytorch-image-models 目錄下**
 ``` {.python}
