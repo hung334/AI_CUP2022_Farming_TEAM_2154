@@ -12,20 +12,22 @@
 
 **File Structure**
 
-    ├── orchid_set
-	    	├──orchid_public_set
+    ├── total_test
+	    	├── 0
 		│     ├──*.jpg
 		│     │
 		│     │  ...
 		│     │
 		│     ├──*.jpg
-		│    
-		└── orchid_private_set
-			  ├──*.jpg
-			  │
-			  │  ...
-			  │
-			  ├──*.jpg
+		│ 
+		│ ...
+		│ 
+		└── f
+		      ├──*.jpg
+		      │
+		      │  ...
+		      │
+		      ├──*.jpg
 
 
 
