@@ -1,7 +1,8 @@
 # AI_CUP_2022_Farming
 
+**1.執行輸出預測答案**
 
-先將 private_test.zip 和 public_test.zip 解壓縮至
+1-1 先將 private_test.zip 和 public_test.zip 解壓縮至
 ./total_test/ 
 
 **File Structure**
@@ -25,18 +26,13 @@
 
 
 
-接著下載6份權重檔，放在./weight/
+1-2 接著下載6份權重檔，放在./weight/
 
 https://drive.google.com/drive/folders/1AIiLbCOiZOGQZLWFa4S8b8YKVq4Bkycl?usp=share_link
 
-**執行 Final_Test_ensemble.py 即可輸出答案，答案會儲存在(./Ans)**
+1-3 執行 Final_Test_ensemble.py 即可輸出答案，答案會儲存在(./Ans)
 
 `python Final_Test_ensemble.py`
-
-
-
-
-
 
 
 
