@@ -2,7 +2,7 @@
 
 **在Colab上掛載Google Drive**
 
-``` python
+``` 
 from google.colab import drive
 drive.mount("/content/drive")
 ```
