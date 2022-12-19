@@ -101,7 +101,7 @@ https://drive.google.com/drive/folders/1Ljl4Alqfo34yKMstZmNgmggCaE08o5m0?usp=sha
 --experiment 儲存訓練實驗的檔案夾名稱
 
 訓練 swinv2-A
-``` {.python}
+``` python
 !CUDA_LAUNCH_BLOCKING=1 python train.py ../Crops33/data --model swinv2_large_window12to24_192to384_22kft1k --pretrained --num-classes 33 -b 12 -vb 12 --opt adamw --weight-decay 0.01 --layer-decay 0.65 --sched cosine --lr 0.0001 --lr-cycle-limit 1 --warmup-lr 1e-5 --min-lr 1e-5 --epochs 30 --warmup-epochs 5 --color-jitter 0.5 --reprob 0.5 --scale 0.4 1.0 --train-interpolation bicubic --drop-path 0.1 -j 20 --save-images --output output --experiment swinv2_large_window12to24_192to384_22kft1k_newA_mean_std --train_txt ./datasets_txt/A_train.txt --val_txt ./datasets_txt/A_val.txt --mean 0.45925 0.48785 0.42035 --std 0.25080 0.24715 0.29270
 ```
 
