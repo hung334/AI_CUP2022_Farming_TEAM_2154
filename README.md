@@ -5,6 +5,7 @@
 ./AI_CUP2022_Farming_TEAM_2154/total_test/ 內做存放
 
 接著下載6份權重檔，放在./weight/
+https://drive.google.com/drive/folders/1AIiLbCOiZOGQZLWFa4S8b8YKVq4Bkycl?usp=share_link
 
 **執行 Final_Test_ensemble.py 即可輸出答案，答案會儲存在(./Ans)**
 
