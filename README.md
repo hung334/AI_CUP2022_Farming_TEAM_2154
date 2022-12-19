@@ -1,5 +1,30 @@
 # AI_CUP_2022_Farming_TEAM_2154
 
+**在Colab上掛載Google Drive**
+
+``` {.python}
+from google.colab import drive
+drive.mount("/content/drive")
+```
+**進入到文件所在的目錄**
+
+``` {.python}
+import os
+path = "/content/drive/My Drive/AI_CUP2022_Farming_TEAM_2154"
+os.chdir(path)
+os.listdir(path)
+```
+
+**需安裝套件:** 
+
+`pip install timm==0.6.2.dev0`
+
+``` {.python}
+pip install timm==0.6.2.dev0
+```
+
+
+
 **1.執行輸出預測答案**
 
 1-1 先將 private_test.zip 和 public_test.zip 解壓縮至
