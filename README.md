@@ -53,9 +53,9 @@ pip install timm==0.6.11
 
 1-2 接著下載6份權重檔，放在(./weight/)
 
-https://drive.google.com/drive/folders/1AIiLbCOiZOGQZLWFa4S8b8YKVq4Bkycl?usp=share_link
+[Google Drive](https://drive.google.com/drive/folders/1AIiLbCOiZOGQZLWFa4S8b8YKVq4Bkycl?usp=share_link)
 
-https://drive.google.com/drive/folders/1Ljl4Alqfo34yKMstZmNgmggCaE08o5m0?usp=share_link
+[Google Drive](https://drive.google.com/drive/folders/1Ljl4Alqfo34yKMstZmNgmggCaE08o5m0?usp=share_link)
 
 1-3 執行 Final_Test_ensemble.py 即可輸出答案，答案會儲存在(./Ans)
 
