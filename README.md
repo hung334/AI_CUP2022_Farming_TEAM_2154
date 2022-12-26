@@ -6,8 +6,6 @@
 from google.colab import drive
 drive.mount("/content/drive")
 ```
-  
-  
 **進入到文件所在的目錄**
 
 ``` python
